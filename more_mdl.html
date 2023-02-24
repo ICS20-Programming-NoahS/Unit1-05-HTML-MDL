@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!-- ICS2O-Unit1-05-HTML-MDL -->
+<html lang="en-ca">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="My second webpage, with MDL">
+    <meta name="keywords" content="Immaculata, ICS2O">
+    <meta name="author" content="NoahSmith04">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   	<!-- Google's MDL -->
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.amber-blue.min.css" />
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>       
+  </head>
+  <body>
+    <div class = "mdl-layout mdl-js-layout mdl-layout--fixed-header">
+			<!-- Web page header -->
+      <header class = "mdl-layout__header">
+        <div class = "mdl-layout__header-row">      
+          <span class = "mdl-layout-title">NFL MVP finalists 2023</span>
+        </div>
+      </header>
+
+      <!-- Three Line List with secondary info and action -->
+      <style>
+      .demo-list-three {
+        width: 650px;
+      }
+      </style>
+
+      <!-- Simple list -->
+      <style>
+        .demo-list-item {
+          width: 300px;
+        }
+      </style>
+      <ul class="demo-list-item mdl-list">
+        <li class="mdl-list__item">
+        <span class="mdl-list__item-primary-content">
+          <b>Patrick Mahomes</b>
+          <p><br>He won MVP after one of the best seasons he has ever had.</p>
+        </span>
+      </li>
+      <li class="mdl-list__item">
+        <span class="mdl-list__item-primary-content">
+          <b>Jalen Hurts</b>
+          <p><br>He came second even though he missed some games due to injury.</p>
+        </span>
+      </li>
+      <li class="mdl-list__item">
+        <span class="mdl-list__item-primary-content">
+          <b>Josh Allen</b>
+          <p><br>He came third after leading the Buffalo Bills to a 13-3 record.</p>
+        </span>
+      </li>
+      </ul>
+
+        <p>Who did you think should have won MVP?</p>
+
+        <!-- Simple Textfield -->
+        <form action="#">
+        <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" id="sample1">
+        <label class="mdl-textfield__label" for="sample1">Text..
+        </label>
+        </div>
+        </form>
+
+        <!-- Radio button -->
+  			<h4>Do you like watching the NFL?</h4>
+  			<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+  			  <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
+  				<span class="mdl-radio__label">Yes</span>
+  			</label>
+        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+  				<input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
+  				<span class="mdl-radio__label">No</span>
+  		  </label>
+    </div>
+  </body>   
+</html>
